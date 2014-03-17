@@ -5,12 +5,9 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by iKeirNez on 16/03/2014.
- */
 public class Main {
 
-    public static Map<String, Character> dictionary = Collections.unmodifiableMap(new HashMap<String, Character>(){{
+    public static final Map<String, Character> dictionary = Collections.unmodifiableMap(new HashMap<String, Character>(){{
         put("O.....", 'a');
         put("O.O...", 'b');
         put("OO....", 'c');
@@ -39,7 +36,7 @@ public class Main {
         put("O..OOO", 'z');
     }});
 
-    public static String[] rows = new String[3];
+    public static final String[] rows = new String[3];
 
     public static void main(String[] args){
         try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {

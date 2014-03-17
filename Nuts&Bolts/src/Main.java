@@ -11,7 +11,7 @@ public class Main {
         new Main();
     }
 
-    public Map<String, AbstractMap.SimpleEntry<Integer, Integer>> values = new HashMap<>();
+    public final Map<String, AbstractMap.SimpleEntry<Integer, Integer>> values = new HashMap<>();
     public int rows;
 
     public Main(){
