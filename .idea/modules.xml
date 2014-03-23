@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Braille/Braille.iml" filepath="$PROJECT_DIR$/Braille/Braille.iml" />
       <module fileurl="file://$PROJECT_DIR$/DailyProgrammer.iml" filepath="$PROJECT_DIR$/DailyProgrammer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GorellianAlphabetSort/GorellianAlphabetSort.iml" filepath="$PROJECT_DIR$/GorellianAlphabetSort/GorellianAlphabetSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Nuts&amp;Bolts/Nuts&amp;Bolts.iml" filepath="$PROJECT_DIR$/Nuts&amp;Bolts/Nuts&amp;Bolts.iml" />
     </modules>
   </component>
