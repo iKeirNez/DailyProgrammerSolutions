@@ -23,9 +23,9 @@ public class Main {
             int difficulty = -1;
 
             while (difficulty == -1){
-                difficulty = Integer.parseInt(bufferedReader.readLine());
+                difficulty = Integer.parseInt(bufferedReader.readLine()) - 1;
 
-                if (difficulty < 1 || difficulty > 5){
+                if (difficulty < 0 || difficulty > 4){
                     System.out.print("Incorrect difficulty value, please try again: ");
                     difficulty = -1;
                 }
