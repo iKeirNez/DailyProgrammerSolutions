@@ -47,10 +47,7 @@ public class Main {
             }
 
             String answer = chosenWords.get(random.nextInt(chosenWords.size()));
-            List<Character> answerChars = new ArrayList<>();
-            for (Character c : answer.toCharArray()) {
-                answerChars.add(c);
-            }
+            char[] answerCharArray = answer.toCharArray();
 
             chosenWords.forEach(System.out::println);
             int guessesLeft = GUESSES;
@@ -69,12 +66,11 @@ public class Main {
                     continue;
                 }
 
-                List<Character> answerCharsCopy = new ArrayList<>(answerChars);
                 int amountCorrect = 0;
+                char[] charArray = s.toCharArray();
 
-                for (Character c : s.toCharArray()){
-                    if (answerCharsCopy.contains(c)){
-                        answerCharsCopy.remove(c);
+                for (int i = 0; i < charArray.length; i++){
+                    if (charArray[i] == answerCharArray[i]){
                         amountCorrect++;
                     }
                 }
