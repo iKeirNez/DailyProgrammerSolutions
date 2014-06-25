@@ -17,7 +17,7 @@ public class FinalGradesTestData {
         new FinalGradesTestData();
     }
 
-    private int storedNamesToUse = 5000;
+    private int storedNamesToUse = 50000;
 
     public FinalGradesTestData() {
         int amount = -1;
