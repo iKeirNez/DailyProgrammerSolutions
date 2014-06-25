@@ -3,7 +3,6 @@ package com.ikeirnez.finalgrades.testdata;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
@@ -44,7 +43,6 @@ public class FinalGradesTestData {
         }
 
         Random random = new Random();
-        List<String> generatedNamesScores = new ArrayList<>();
 
         try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(getClass().getClassLoader().getResourceAsStream("names.txt")))){
             List<String> names = bufferedReader.lines().parallel().filter(s -> !s.equals("")).map(s -> s.replaceAll("\\|", ", ")).collect(Collectors.toList());
@@ -64,13 +62,11 @@ public class FinalGradesTestData {
                     }
                 }
 
-                generatedNamesScores.add(stringBuilder.toString());
+                System.out.println(stringBuilder.toString());
             }
         } catch (IOException e) {
             e.printStackTrace();
             return;
         }
-
-        generatedNamesScores.stream().forEach(System.out::println);
     }
 }
