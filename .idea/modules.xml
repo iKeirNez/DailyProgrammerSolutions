@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Braille/Braille.iml" filepath="$PROJECT_DIR$/Braille/Braille.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NovelCompression/Compressing/Compressing.iml" filepath="$PROJECT_DIR$/NovelCompression/Compressing/Compressing.iml" />
       <module fileurl="file://$PROJECT_DIR$/DailyProgrammer.iml" filepath="$PROJECT_DIR$/DailyProgrammer.iml" />
       <module fileurl="file://$PROJECT_DIR$/FinalGradesTestData/FinalGradesTestData.iml" filepath="$PROJECT_DIR$/FinalGradesTestData/FinalGradesTestData.iml" />
       <module fileurl="file://$PROJECT_DIR$/GorellianAlphabetSort/GorellianAlphabetSort.iml" filepath="$PROJECT_DIR$/GorellianAlphabetSort/GorellianAlphabetSort.iml" />
