@@ -38,7 +38,7 @@ public class Compress {
                 handleLine(line);
             }
 
-            compressed = compressed.substring(0, compressed.length() -2) + "E";
+            compressed = compressed.substring(0, compressed.length() - 2) + "E";
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -72,8 +72,15 @@ public class Compress {
 
     public void handleWord(String word){
         if (word.contains("-")){
-            for (String s : word.split("-")){
+            String[] split = word.split("-");
+
+            for (int i = 0; i < split.length; i++){
+                String s = split[i];
                 handleWord(s);
+
+                if (i != split.length - 1){
+                    compressed += "- ";
+                }
             }
         } else {
             String cleansedWord = word.toLowerCase();
