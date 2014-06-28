@@ -7,7 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/FinalGradesTestData/FinalGradesTestData.iml" filepath="$PROJECT_DIR$/FinalGradesTestData/FinalGradesTestData.iml" />
       <module fileurl="file://$PROJECT_DIR$/GorellianAlphabetSort/GorellianAlphabetSort.iml" filepath="$PROJECT_DIR$/GorellianAlphabetSort/GorellianAlphabetSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/HackingGame/HackingGame.iml" filepath="$PROJECT_DIR$/HackingGame/HackingGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NovelCompression/NovelCompression.iml" filepath="$PROJECT_DIR$/NovelCompression/NovelCompression.iml" />
       <module fileurl="file://$PROJECT_DIR$/Nuts&amp;Bolts/Nuts&amp;Bolts.iml" filepath="$PROJECT_DIR$/Nuts&amp;Bolts/Nuts&amp;Bolts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NovelCompression/Unpacking/Unpacking.iml" filepath="$PROJECT_DIR$/NovelCompression/Unpacking/Unpacking.iml" />
     </modules>
   </component>
 </project>
